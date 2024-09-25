@@ -2,6 +2,11 @@
 .header {
     width: 1670px;
 }
+.spinner-header {
+    margin: 5px 20px;
+    height: 60px;
+    width: 60px;
+}
 .flex {
     height: 70px;
 }
@@ -117,7 +122,7 @@
         margin-left: -250px;
         width: 800px;
         font-size: 1.4rem;
-        margin-top: 44%;
+        /* margin-top: 44%; */
     }
 }
 

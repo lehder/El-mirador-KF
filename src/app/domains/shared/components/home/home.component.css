@@ -1,0 +1,23 @@
+.container-home {
+    background: rgb(39, 37, 37);
+    height: 5000px;
+}
+.parrafo-home {
+    color: beige;
+    margin: 0 200px 30px 200px;
+    padding: 50px;
+
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.images-home {
+    margin-left: 400px;
+    width: 900px;
+    height: 600px;
+    object-fit: cover;
+}
