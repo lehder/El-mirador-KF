@@ -15,7 +15,7 @@
 }
 .container-header {
     position: relative;
-    display: inline-block;
+    /* display: inline-block */
     text-align: center;
 }
 .image-header {
