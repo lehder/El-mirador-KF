@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { HeaderComponent } from './domains/shared/components/header/header.component';
 import { HomeComponent } from './domains/shared/components/home/home.component';
+import { FooterComponent } from './domains/shared/components/footer/footer.component';
 
 export const routes: Routes = [
 
@@ -18,6 +19,10 @@ export const routes: Routes = [
     {
         path: 'header',
         component: HeaderComponent, 
+    },
+    {
+        path: 'footer',
+        component: FooterComponent, 
     },
 
 

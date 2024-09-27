@@ -162,3 +162,81 @@
     object-fit: cover;
     border: 1px solid white;
 }
+
+@media screen and (max-width: 720px){
+     
+}  
+@media screen and (max-width: 480px){
+  .container-home {
+    height: 5200px;
+  }
+  .contenedor-home {
+    margin-left: 20px;
+    /* width: 1155px; */
+    width: 1620px;
+  }
+  .parrafo-home {
+    margin: 0;
+    font-size: 2.5rem;
+    width: 1200px;
+    margin-left: 135px;
+  }
+  .images-home {
+    margin-left: 150px;
+    margin-top: 60px;
+    width: 1200px;
+  }
+  .span-home {
+    font-size: 2.5rem;
+    margin-left: 600px;
+  }
+  .contenedor-1 {
+    margin-left: -50px;
+    width: 960px;
+  }
+  .stor-grid-container {
+    height: 2150px;
+  }
+  .subtitle-grid {
+    margin-left: 270px;
+  }
+  .parrafo-grid {
+    margin-left: 270px;
+    font-size: 2.2rem;
+    margin-top: 950px;
+  }
+  .contenedor-2 {
+    margin-left: 75px;
+    width: 579px;
+  }
+  .contenedor-3 {
+    margin-left: 75px;
+    width: 579px;
+  }
+  .description-3 {
+    width: 1620px;
+    margin: 20px;
+    height: 800px;
+  }
+  .subtitle-description {
+    margin-left: 700px;
+    font-size: 4rem;
+    width: 1200px;
+  }
+  .parrafo-description {
+    font-size: 2.6rem;
+    width: 800px;
+    margin-left: 800px;
+    margin-top: 290px;
+  }
+  .gallery {
+    width: 1620px;
+    margin: 20px;
+  }
+  
+}
+
+@media screen and (max-width: 320px){
+  
+  
+}
