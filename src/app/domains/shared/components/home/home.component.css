@@ -2,7 +2,9 @@
     background: rgb(39, 37, 37);
     height: 3650px;
     width: 1670px;
+    padding: 50px 0;
 }
+
 .contenedor-home {
     width: 1500px;
     margin-left: 70px;
@@ -166,10 +168,17 @@
 @media screen and (max-width: 720px){
      
 }  
+@media screen and (min-width: 600px) {
+  
+}
 @media screen and (max-width: 480px){
   .container-home {
-    height: 5200px;
+    /* height: 5200px; */
+    height: 5800px;
+    width: 1670px;
+    padding: 50px 0;
   }
+  
   .contenedor-home {
     margin-left: 20px;
     /* width: 1155px; */
@@ -177,7 +186,7 @@
   }
   .parrafo-home {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
     width: 1200px;
     margin-left: 135px;
   }
@@ -195,14 +204,15 @@
     width: 960px;
   }
   .stor-grid-container {
-    height: 2150px;
+    height: 2550px;
   }
   .subtitle-grid {
-    margin-left: 270px;
+    margin-left: 350px;
+    font-size: 3rem;
   }
   .parrafo-grid {
-    margin-left: 270px;
-    font-size: 2.2rem;
+    margin-left: 350px;
+    font-size: 2.6rem;
     margin-top: 950px;
   }
   .contenedor-2 {
