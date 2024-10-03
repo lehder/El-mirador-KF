@@ -1,0 +1,43 @@
+@media screen and (max-width: 480px) {
+    .md\:flex {
+        height: 700px;
+        width: 1670px;
+    }
+    .text-gray-500 {
+        font-size: 2rem;
+        display: table;
+        margin: 20px;
+        margin-top: 110px;
+        width: 1400px;
+    }
+    .md\:justify-between {
+        justify-content: space-between;
+    }
+    .md {
+        height: 4000px;
+    }
+    .ul {
+        font-size: 4rem;
+    }
+    .li {
+        margin: 20px;
+    }
+    .a {
+        letter-spacing: 5px;
+    }
+    .text-sm {
+        font-size: 3.5rem;
+        color: beige;
+    }
+    .me-4 {
+        font-size: 4rem;
+        display: ruby-text;
+        color: beige;
+        background: rgb(39, 37, 37);
+    }
+    .m-4 {
+        background: rgb(39, 37, 37);
+        margin: 0;
+        width: 1670px;
+    }
+}
