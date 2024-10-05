@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color de texto */
+    border: 1px solid #ddd; /* Borde */
+    margin: 5px; /* Espacio entre los elementos */
+    flex: 0 0 calc(50% - 10px); /* 50% del ancho menos el margen */
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilo responsive */
+@media (max-width: 600px) {
+    .grid-item {
+        flex: 0 0 calc(100% - 10px); /* A 100% en pantallas pequeñas */
+    }
+}
