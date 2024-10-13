@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 480px) {
     .md\:flex {
-        height: 700px;
+        height: 1000px;
         width: 1670px;
     }
     .text-gray-500 {
@@ -73,6 +73,7 @@
     .text-sm {
         font-size: 3.5rem;
         color: beige;
+        line-height: 3.2rem;
     }
     .me-4 {
         font-size: 4rem;
