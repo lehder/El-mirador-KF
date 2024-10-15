@@ -71,6 +71,13 @@
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.4em;
+
+    background-color: rgba(239, 230, 230, 0.05);
+    border: 2px solid rgba(252, 252, 252, 0.4);
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(20px);
 }
 
 @media screen and (max-width: 720px){
@@ -88,9 +95,9 @@
         height: 100px;
         width: 100px;
     }
-    .text-sm {
+    /* .text-sm {
         font-size: 3rem;
-    }
+    } */
     .image-header {
         height: 1500px;
     }
@@ -100,7 +107,7 @@
         /* font-size: larger; */
     }
     .text-sm {
-        font-size: 4rem;
+        font-size: 4.5rem;
         line-height: 1.25rem;
     }
     .w-3 {
